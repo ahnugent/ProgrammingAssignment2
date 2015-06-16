@@ -1,5 +1,5 @@
-## makeCacheMatrix() and cacheSolve() are used together to computes and cache the inverse of a matrix,
-## avoiding redundant computation.
+## makeCacheMatrix() and cacheSolve() are used together to compute and cache the inverse of a matrix,
+## avoiding redundant computation when the input matrix has not been reassigned between calls.
 
 ## makeCacheMatrix() caches an input matrix as a list, with access methods:
 ##   set() assigns the input matrix to a cached object.
